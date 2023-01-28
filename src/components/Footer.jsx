@@ -109,7 +109,7 @@ const Footer = ({title}) => {
 								type='date'
 								id='date'
 								name='date'
-								min='2023-01-25'
+								min='2023-01-28'
 								max='2023-12-31'
 								value={date}
 								onChange={(e) => setDate(e.target.value)}
