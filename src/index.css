@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color:#f0f6fc;
+}
+h1{
+    @apply font-extrabold
+}
+.btn-header{
+    @apply bg-blue-800 p-2 rounded-lg hover:bg-red-700 text-white lg:w-3/12;
+}
+.btn-header1{
+    @apply bg-blue-800 p-2 rounded-lg hover:bg-red-700 text-white;
+}
+.nav{
+    background-image: url('./img/cover.jpg');
+    background-size: cover;
+    background-position:center ;
+    min-height: 100vh;
+    width: 100%; 
+}
+.navContainer{
+    @apply bg-white shadow-xl py-3 pl-4;
+}
+
+.navContainer1{
+    @apply flex justify-around bg-white shadow-xl py-3 pl-4;
+}
+.h2-header{
+    @apply text-blue-800 text-center mt-5 font-bold lg:text-3xl;
+}
+.medName{
+    @apply text-center text-blue-900 font-extrabold py-2 
+}
+.medName1{
+    @apply  text-blue-900 text-center;
+}
